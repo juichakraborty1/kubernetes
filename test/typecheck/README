@@ -8,6 +8,7 @@ It uses Go's built-in parsing and typechecking libraries (go/parser and
 go/types), which unfortunately are not what the go compiler uses. Occasional
 mismatches will occur, but overall they correspond closely.
 
+#e.g. Warnings
 Failures can be ignored if they don't block the build:
 
 Things go/types errors on that go build doesn't:
